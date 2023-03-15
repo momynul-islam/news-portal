@@ -1,0 +1,39 @@
+html {
+  --color-primary: #5d5fef;
+  --color-gray: #515151;
+  --color-dark: #121221;
+  --color-light: #718797;
+  --color-link-bg: #eeefff;
+  --bg-body: #f6f6f6;
+}
+
+body {
+  background-color: var(--bg-body);
+  color: var(--color-dark);
+}
+
+.highlight {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.profile-img {
+  height: 35px;
+  width: 35px;
+}
+
+.featured-links a {
+  color: var(--color-gray);
+  padding: 5px 10px;
+}
+
+.featured-links a:active,
+.featured-links a:hover {
+  color: var(--color-primary);
+  background-color: var(--color-link-bg);
+}
+
+.author-img {
+  height: 45px;
+  width: 45px;
+}
